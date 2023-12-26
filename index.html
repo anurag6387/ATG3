@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- custom css file -->
+    <link rel="stylesheet" href="root.css" />
+    <!-- font awesome used only for search icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Across The Globe</title>
+  </head>
+
+    <body>
+ 
+
+         <!-- large button -->
+        <table> <!-- table for clear view of buttons-->
+            <tr>
+                <td colspan="6"><h2 style="display: inline; margin-right: 20%;">Large buttons</h2></td>
+                <td colspan="3"><input type="text" id="username" name="username" class="inputField-lg" placeholder="Type here..."></td>
+            </tr>
+            <tr>
+              <td><button type="submit" class="btn lg-btn" id="lg-default-btn"onclick="disableButtonLg(this)">Submit</button></td>
+              <td><button type="submit" class="lg-btn btn-primary"id="btn-primary"onclick="disableButtonLg(this)">Submit</button></td>
+              <td><button type="submit" class="lg-btn dashed-border"id="dashed-border"onclick="disableButtonLg(this)">Submit</button></td>
+              <td><button type="submit" class="lg-btn btn-text" id="btn-text"onclick="disableButtonLg(this)">Submit</button></td>
+              <td><button type="submit" class="btn-link" id="btn-link"onclick="disableButtonLg(this)">Submit</button></td>
+            </tr>
+        
+
+            <!-- search button with icon and label-->
+            <tr>
+                <td><button type="submit" class="fa fa-search lg-icon-btn btn lg-btn" id="lg-icon"onclick="disableButtonLg(this)"> Submit</button></td>
+                <td><button type="submit" class="fa fa-search lg-icon-btn lg-btn btn-primary"id="lg-icon-primary"onclick="disableButtonLg(this)"> Submit</button></td>
+                <td><button type="submit" class="fa fa-search lg-icon-btn lg-btn dashed-border" id="lg-icon-dashed"onclick="disableButtonLg(this)"> Submit</button></td>
+                <td><button type="submit" class="fa fa-search lg-icon-btn lg-btn btn-text" id="lg-icon-text"onclick="disableButtonLg(this)"> Submit</button></td>
+                <td><button type="submit" class="fa fa-search lg-icon-btn lg-btn btn-link" id="lg-icon-link"onclick="disableButtonLg(this)"> Submit</button></td>
+            </tr>
+            <!-- icon button -->
+            <tr>
+                <td><button type="submit" class="fa fa-search btn lg-btn" onclick="disableButtonLg(this)"></button></td>
+                <td><button type="submit" class="fa fa-search lg-btn btn-primary" onclick="disableButtonLg(this)"></button></td>
+                <td><button type="submit" class="fa fa-search lg-btn dashed-border" onclick="disableButtonLg(this)"></button></td>
+                <td><button type="submit" class="fa fa-search lg-btn btn-text" onclick="disableButtonLg(this)"></button></td>
+                <td><button type="submit" class="fa fa-search lg-btn btn-link" onclick="disableButtonLg(this)"></button></td>
+            </tr>
+
+            <tr>
+                <td colspan="6"><h2 style="display: inline; margin-right: 20%;">Medium buttons</h2></td>
+                <td colspan="3"><input type="text" id="username" name="username" class="inputField-md" placeholder="Type here..."></td>
+            </tr>
+
+          <!-- md btns  -->
+            <tr>
+                <td><button type="submit" class="btn md-btn" id="lg-default-btn" onclick="disableButtonMd(this)">Submit</button></td>
+                <td><button type="submit" class="md-btn btn-primary"id="btn-primary" onclick="disableButtonMd(this)">Submit</button></td>
+                <td><button type="submit" class="md-btn dashed-border"id="dashed-border" onclick="disableButtonMd(this)">Submit</button></td>
+                <td><button type="submit" class="md-btn btn-text" id="btn-text"  onclick="disableButtonMd(this)">Submit</button></td>
+                <td><button type="submit" class=" md-btn btn-link" id="btn-link"  onclick="disableButtonMd(this)">Submit</button></td>
+            </tr>
+
+            <tr>
+                <td><button type="submit" class="fa fa-search md-icon-btn btn md-btn" onclick="disableButtonMd(this)"> Submit</button></td>
+                <td><button type="submit" class="fa fa-search md-icon-btn md-btn btn-primary" onclick="disableButtonMd(this)"> Submit</button></td>
+                <td><button type="submit" class="fa fa-search md-icon-btn md-btn dashed-border" onclick="disableButtonMd(this)"> Submit</button></td>
+                <td><button type="submit" class="fa fa-search md-icon-btn md-btn btn-text" onclick="disableButtonMd(this)"> Submit</button></td>
+                <td><button type="submit" class="fa fa-search md-icon-btn md-btn btn-link" onclick="disableButtonMd(this)"> Submit</button></td>
+            </tr>
+            <tr>
+                <td><button type="submit" class="fa fa-search btn md-btn" onclick="disableButtonMd(this)"></button></td>
+                <td><button type="submit" class="fa fa-search md-btn btn-primary" onclick="disableButtonMd(this)"></button></td>
+                <td><button type="submit" class="fa fa-search md-btn dashed-border" onclick="disableButtonMd(this)"></button></td>
+                <td><button type="submit" class="fa fa-search md-btn btn-text" onclick="disableButtonMd(this)"></button></td>
+                <td><button type="submit" class="fa fa-search md-btn btn-link" onclick="disableButtonMd(this)"></button></td>
+            </tr>
+            <tr>
+                <td colspan="6"><h2 style="display: inline; margin-right: 20%;">Small buttons</h2></td>
+                <td colspan="3"><input type="text" id="username" name="username" class="inputField-sm" placeholder="Type here..."></td>
+            </tr>
+
+            <!-- sm buttons -->
+            <tr>
+                <td><button type="submit" class="btn sm-btn" id="lg-default-btn" onclick="disableButtonSm(this)">Submit</button></td>
+                <td><button type="submit" class="sm-btn btn-primary"id="btn-primary"onclick="disableButtonSm(this)">Submit</button></td>
+                <td><button type="submit" class="sm-btn dashed-border"id="dashed-border"onclick="disableButtonSm(this)">Submit</button></td>
+                <td><button type="submit" class="sm-btn btn-text" id="btn-text" onclick="disableButtonSm(this)">Submit</button></td>
+                <td><button type="submit" class=" sm-btn btn-link" id="btn-link"onclick="disableButtonSm(this)">Submit</button></td>
+            </tr>
+            <tr>
+                <td><button type="submit" class="fa fa-search sm-icon-btn btn sm-btn" onclick="disableButtonSm(this)"> Submit</button></td>
+                <td><button type="submit" class="fa fa-search sm-icon-btn sm-btn btn-primary" onclick="disableButtonSm(this)"> Submit</button></td>
+                <td><button type="submit" class="fa fa-search sm-icon-btn sm-btn dashed-border" onclick="disableButtonSm(this)"> Submit</button></td>
+                <td><button type="submit" class="fa fa-search sm-icon-btn sm-btn btn-text" onclick="disableButtonSm(this)"> Submit</button></td>
+                <td><button type="submit" class="fa fa-search sm-icon-btn sm-btn btn-link" onclick="disableButtonSm(this)"> Submit</button></td>
+            </tr>
+            <tr>
+                <td><button type="submit" class="fa fa-search btn sm-btn"  onclick="disableButtonSm(this)"></button></td>
+                <td><button type="submit" class="fa fa-search sm-btn btn-primary" onclick="disableButtonSm(this)"></button></td>
+                <td><button type="submit" class="fa fa-search sm-btn dashed-border"  onclick="disableButtonSm(this)"></button></td>
+                <td><button type="submit" class="fa fa-search sm-btn btn-text"  onclick="disableButtonSm(this)"></button></td>
+                <td><button type="submit" class="fa fa-search sm-btn btn-link"  onclick="disableButtonSm(this)"></button>
+            </tr>
+        </table>
+        <script src="root.js"></script>
+    </body>
+</html>

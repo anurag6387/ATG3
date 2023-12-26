@@ -1,0 +1,241 @@
+body {
+  background-color: rgb(217, 217, 217);
+  font-family: 'Times New Roman', Times, serif
+}
+h2{
+  color: red;
+}
+/* sm buttons */
+.sm-btn {
+  height: 24px;
+  width: 58px;
+  font-size: 12px;
+  margin: 16px 50px 0 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: black;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+.sm-icon-btn {
+  width: 82px;
+}
+/* btn md */
+.md-btn {
+  height: 32px;
+  width: 74px;
+  font-size: 14px;
+  margin: 16px 50px 0 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: black;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+.md-icon-btn {
+  width: 98px;
+}
+
+.lg-btn {
+  height: 40px;
+  width: 80px;
+  font-size: 16px;
+  margin: 16px 50px 0 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: black;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+.lg-icon-btn {
+  width: 104px;
+}
+.btn {
+  cursor: pointer;
+}
+.btn:hover {
+  cursor: pointer;
+  color: #007bff;
+}
+.btn:focus {
+  color: #40a9ff;
+}
+.btn:active {
+  color: blue;
+  border: 1px solid blue;
+}
+.btn:disabled {
+  background-color: white;
+  color: gray;
+  cursor: not-allowed;
+}
+.btn:disabled:hover {
+  color: gray;
+}
+
+/* primary button*/
+.btn-primary {
+  background-color: #1890ff;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #40a9ff;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary:focus {
+  background-color: #40a9ff;
+  color: white;
+}
+.btn-primary:active {
+  background-color: #096dd9;
+}
+.btn-primary.loading {
+  background-color: #2272bc;
+  opacity: 0.7;
+}
+.btn-primary:disabled {
+  background-color: white;
+  color: gray;
+  cursor: not-allowed;
+}
+
+/* btn-lg-dashed-border */
+
+.dashed-border {
+  border: 1px dashed #d9d9d9;
+}
+.dashed-border:hover {
+  cursor: pointer;
+  color: #007bff;
+  border: 2px dashed #007bff;
+}
+.dashed-border:focus {
+  color: #007bff;
+  border: 2px dashed #007bff;
+}
+.dashed-border.loading {
+  border: 1px dashed #d9d9d9;
+  opacity: 0.7;
+}
+.dashed-border:disabled {
+  background-color: white;
+  color: gray;
+  cursor: not-allowed;
+}
+.dashed-border:disabled:hover {
+  border: 1px dashed #d9d9d9;
+}
+
+/* btn - text */
+.btn-text {
+  background: none;
+  border: none;
+}
+.btn-text:hover {
+  background-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.btn-text:focus {
+  background-color: white;
+  border-radius: 2px;
+}
+.btn-text:active {
+  background-color: white;
+  border-radius: 2px;
+}
+.btn-text.loading {
+  color: gray;
+  opacity: 0.7;
+}
+.btn-text:disabled {
+  color: gray;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.btn-text:disabled:hover {
+  background-color: initial;
+}
+
+/* btn link */
+.btn-link {
+  color: #1890ff;
+  border: none;
+  background: none;
+}
+.btn-link:hover {
+  color: #40a9ff;
+  cursor: pointer;
+}
+.btn-link:focus {
+  color: #40a9ff;
+}
+.btn-link:active {
+  color: #096dd9;
+}
+.btn-link.loading {
+  color: #1890ff;
+  background: none;
+  opacity: 0.7;
+}
+.btn-link:disabled {
+  color: gray;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.btn-link:disabled:hover {
+  background-color: initial;
+}
+.loading-sm {
+  width: 90px;
+}
+.loading-md {
+  width: 98px;
+}
+.loading-lg {
+  width: 104px;
+}
+
+/*input field */
+.inputField-lg {
+  height: 30px;
+  width: 350px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+.inputField-md {
+  height: 25px;
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+.inputField-sm {
+  height: 15px;
+  width: 150px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+.inputField-lg:hover,
+.inputField-md:hover,
+.inputField-sm:hover {
+  border-color: #007bff; /* Change border color on hover */
+}
+.inputField-lg:focus,
+.inputField-md:focus,
+.inputField-sm:focus,
+.inputField-lg:active,
+.inputField-md:active,
+.inputField-sm:active {
+  outline: none;
+  box-shadow: 0 0 10px rgba(22, 22, 22, 0.5);
+}
